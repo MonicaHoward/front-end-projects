@@ -21,15 +21,10 @@ header {
 small {
   color: gray;
 }
-.col-md-2 {
-  text-align: right;
+/*MAIN*/
+.main-color-bg {
+  background: #59b6a1;
 }
-
-
-
-
-
-
 .navbar {
   background-color: #59b6a1;
 }
@@ -81,6 +76,13 @@ small {
 .navbar .navbar-link:hover {
   color: #ecdbff;
 }
+.main-color-bg {
+  background-color: #59b6a1 !important;
+  border-color: #419c80 !important;
+  color: #FFFFFF;
+}
+
+
 
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
