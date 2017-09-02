@@ -2,7 +2,7 @@ body {
   background: #F4F4F4;
 }
 .navbar {
-  min-height: 33px; !important;
+  min-height: 30px; !important;
   margin-bottom: 0;
   border-radius: 0;
 }
@@ -10,7 +10,19 @@ body {
 .navbar-nav > li > a, .navbar-brand {
   padding-top: 6px !important;
   padding-bottom: 0 !important;
-  height: 33px;
+  height: 30px;
+}
+header {
+  background: #333333;
+  color: #FFFFFF;
+  padding: 12px;
+  margin-bottom: 15px;
+}
+small {
+  color: gray;
+}
+.col-md-2 {
+  text-align: right;
 }
 
 
@@ -18,9 +30,8 @@ body {
 
 
 
-
 .navbar {
-  background-color: #9b59b6;
+  background-color: #59b6a1;
 }
 .navbar .navbar-brand {
   color: #ecf0f1;
@@ -48,14 +59,14 @@ body {
 .navbar .navbar-nav .nav-item.show .nav-link:hover,
 .navbar .navbar-nav .nav-item.show .nav-link:focus {
   color: #ecdbff;
-  background-color: #8e44ad;
+  background-color: #419c80;
 }
 .navbar .navbar-toggle {
-  border-color: #8e44ad;
+  border-color: #419c80;
 }
 .navbar .navbar-toggle:hover,
 .navbar .navbar-toggle:focus {
-  background-color: #8e44ad;
+  background-color: #419c80;
 }
 .navbar .navbar-toggle .navbar-toggler-icon {
   color: #ecf0f1;
@@ -71,12 +82,6 @@ body {
   color: #ecdbff;
 }
 
-.main-color-bg {
-  background-color: #9b59b6 !important;
-  border-color: #FFFFFF;
-  color: #FFFFFF
-}
-
 @media (max-width: 575px) {
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #ecf0f1;
@@ -87,7 +92,7 @@ body {
   }
   .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ecdbff;
-    background-color: #8e44ad;
+    background-color: #419c80;
   }
 }
 
@@ -101,7 +106,7 @@ body {
   }
   .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ecdbff;
-    background-color: #8e44ad;
+    background-color: #419c80;
   }
 }
 
@@ -115,7 +120,7 @@ body {
   }
   .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ecdbff;
-    background-color: #8e44ad;
+    background-color: #419c80;
   }
 }
 
@@ -129,7 +134,7 @@ body {
   }
   .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
     color: #ecdbff;
-    background-color: #8e44ad;
+    background-color: #419c80;
   }
 }
 
@@ -142,5 +147,5 @@ body {
 }
 .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
   color: #ecdbff;
-  background-color: #8e44ad;
+  background-color: #419c80;
 }
