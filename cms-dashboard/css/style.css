@@ -21,10 +21,17 @@ header {
 small {
   color: gray;
 }
-/*MAIN*/
-.main-color-bg {
-  background: #59b6a1;
+/*PROGRESS CARD*/
+.card {
+  margin-top: 15px;
 }
+.progress-bar {
+  background-color: #333;
+  color: #FFF;
+}
+
+
+
 .navbar {
   background-color: #59b6a1;
 }
