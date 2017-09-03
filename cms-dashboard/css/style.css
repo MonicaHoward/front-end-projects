@@ -21,6 +21,10 @@ header {
 small {
   color: gray;
 }
+/*BREADCRUMB*/
+.too-much-sauce {
+  background-color: #ddd;
+}
 /*PROGRESS CARD*/
 .card {
   margin-top: 15px;
