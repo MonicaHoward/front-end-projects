@@ -26,13 +26,17 @@ small {
   background-color: #ddd;
 }
 /*PROGRESS CARD*/
-.card {
+.custom-card {
   margin-top: 15px;
 }
 .progress-bar {
   background-color: #333;
   color: #FFF;
 }
+
+
+
+
 
 
 
