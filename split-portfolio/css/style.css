@@ -1,5 +1,13 @@
+
 .custom-sidebar {
   height: 100%;
-  width: 30%;
+  width: 40%;
   position: fixed;
+}
+.custom-main {
+  border: 1px solid green;
+  float: right;
+  height: 100%;
+  width: 60%;
+  position: relative;
 }
