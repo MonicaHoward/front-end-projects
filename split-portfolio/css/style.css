@@ -1,13 +1,15 @@
-
+.wrapper {
+  border: 5px solid green;
+  display: flex;
+  align-items: stretch;
+}
 .custom-sidebar {
-  height: 100%;
-  width: 40%;
-  position: fixed;
+border: 5px solid black;
+min-height: 100vh;
+max-width: 40%;
+min-width:  40%;
+overflow: hidden;
 }
 .custom-main {
-  border: 1px solid green;
-  float: right;
-  height: 100%;
-  width: 60%;
-  position: relative;
+border: 5px solid orange;
 }
