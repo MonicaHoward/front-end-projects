@@ -1,15 +1,21 @@
 .wrapper {
-  border: 5px solid green;
+  /*border: 5px solid green;*/
   display: flex;
   align-items: stretch;
 }
 .custom-sidebar {
-border: 5px solid black;
+/*border: 5px solid black;*/
 min-height: 100vh;
 max-width: 40%;
 min-width:  40%;
 overflow: hidden;
 }
+img {
+    position: relative; /* allows repositioning */
+    left: 20%; /* move the whole width of the image to the right */
+    margin-left: -80%; /* magic! */
+    height: 100vh;
+}
 .custom-main {
-border: 5px solid orange;
+/*border: 5px solid orange;*/
 }
