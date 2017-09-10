@@ -1,6 +1,6 @@
 .wrapper {
   border: 5px solid green;
-  display: flex;
+  /*display: flex;*/
   align-items: stretch;
   overflow: hidden;
 }
