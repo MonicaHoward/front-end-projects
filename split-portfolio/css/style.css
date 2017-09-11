@@ -1,14 +1,14 @@
 .wrapper {
-  border: 5px solid green;
+  /*border: 5px solid green;*/
   /*display: flex;*/
   align-items: stretch;
   overflow: hidden;
 }
 .container {
-  border: 5px solid orange;
+  /*border: 5px solid orange;*/
 }
 .custom-sidebar {
-  border: 5px solid black;
+
   /*min-height: 100vh;*/
   max-width: 30%;
   min-width: 30%;
@@ -20,7 +20,7 @@
     height: 100vh;
 }*/
 .custom-main {
-  border: 5px solid blue;
+
   min-height: 100vh;
   max-width: 70%;
   min-width: 70%;
