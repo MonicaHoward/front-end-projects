@@ -1,0 +1,20 @@
+.wrapper {
+  font-family: sans-serif;
+  text-align: center;
+}
+.logo {
+  margin-top: 4%;
+}
+h1 {
+  font-size: 5em;
+  line-height: 2;
+}
+.intro-text {
+  font-size: 2em;
+  margin-top: -5%;
+}
+button {
+  font-size: 1.5em;
+  margin: .5%;
+  padding: 1% 3%;
+}
