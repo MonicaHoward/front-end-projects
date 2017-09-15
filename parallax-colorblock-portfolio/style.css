@@ -5,6 +5,7 @@
 .logo {
   margin-top: 4%;
 }
+/*FIRST SLIDE*/
 h1 {
   font-size: 5em;
   line-height: 2;
@@ -17,4 +18,34 @@ button {
   font-size: 1.5em;
   margin: .5%;
   padding: 1% 3%;
+}
+.social-media-icons {
+  margin: 8%;
+}
+.social-media-icons li{
+  list-style-type: none;
+}
+.github-icon {
+  height: 50px;
+}
+/*SECOND SLIDE*/
+.second-slide {
+  border: 1px solid ORANGE;
+  overflow: auto;
+}
+.progress-bar {
+  border: 1px solid blue;
+  float: right;
+  margin-right: 5%;
+}
+.progress-bar li {
+  list-style: none;
+  margin: 25% auto;
+
+}
+.progress {
+  border: 2px solid black;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
