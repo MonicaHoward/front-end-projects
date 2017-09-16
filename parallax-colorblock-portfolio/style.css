@@ -33,6 +33,12 @@ button {
   border: 1px solid ORANGE;
   overflow: auto;
 }
+.brag-content {
+  border: 1px solid limegreen;
+  margin-left: 3%;
+  width: 400px;
+  height: 600px;
+}
 .progress-bar {
   border: 1px solid blue;
   float: right;
