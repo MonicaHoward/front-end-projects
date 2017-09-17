@@ -33,16 +33,24 @@ button {
   border: 1px solid ORANGE;
   overflow: auto;
 }
+.slide-title {
+  margin: 0 5%;;
+}
 .brag-content {
-  border: 1px solid limegreen;
-  margin-left: 3%;
+  background-color: gray;
+  margin: 0 5%;;
   width: 400px;
   height: 600px;
+}
+.slide-description {
+  border: 1px solid pink;
+  height: 600px;
+  width: 100px;
+  float: left;
 }
 .progress-bar {
   border: 1px solid blue;
   float: right;
-  margin-right: 5%;
 }
 .progress-bar li {
   list-style: none;
