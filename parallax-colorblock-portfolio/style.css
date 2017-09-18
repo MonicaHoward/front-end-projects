@@ -34,23 +34,27 @@ button {
   overflow: auto;
 }
 .slide-title {
-  margin: 0 5%;;
+  margin: 0 5%;
+  overflow: auto;
 }
-.brag-content {
+.slide-img {
   background-color: gray;
-  margin: 0 5%;;
+  float: left;
+  margin: 0 5% 5% 5%;
   width: 400px;
   height: 600px;
 }
-.slide-description {
+.slide-info {
   border: 1px solid pink;
   height: 600px;
-  width: 100px;
+  width: 700px;
   float: left;
 }
 .progress-bar {
   border: 1px solid blue;
   float: right;
+  height: 600px;
+  margin-right: 5%;
 }
 .progress-bar li {
   list-style: none;
