@@ -1,9 +1,14 @@
+body {
+  background-color: #02C39A;
+}
 .wrapper {
+  background-color: #02C39A;
+  color: #F0F3BD;
   font-family: sans-serif;
   text-align: center;
 }
 .logo {
-  margin-top: 4%;
+  /*margin-top: 4%;*/
 }
 /*FIRST SLIDE*/
 h1 {
